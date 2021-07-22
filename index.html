@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="">
+  <title>Jude SketchPad</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <!--<meta http-equiv="refresh" content="1">-->
+</head>
+<body>
+
+  <header>
+    <h1>Sketch Pad</h1>
+    <p>by: <b>JBTHEONE</b> </p>
+  </header>
+
+  <main>
+      <div class="center">
+        <p id="current-color">Choose your color:</p>
+      </div>
+      <div id="choices">
+        <button type="button" value="red" id="red">Red</button>
+        <button type="button" value="orange" id="orange">Orange</button>
+        <button type="button" value="yellow" id="yellow">Yellow</button>
+        <button type="button" value="green" id="green">Green</button>
+        <button type="button" value="blue" id="blue">Blue</button>
+        <button type="button" value="violet" id="violet">Fuchsia</button>
+        <br>
+        <button type="button" value="black" id="black">Black</button>
+        <button type="button" value="white" id="white">Eraser</button>
+        <button type="button" value="rainbow" id="rainbow">Rainbow</button>
+      </div>
+
+      <div id="main-container">
+        <div class="grid">
+        </div>
+      </div>
+
+      <div id="input-range">
+        <input type="range" id="size" min="16" max="40" value="16">
+        <span id="pixel-size">Grid Size</span>
+      </div>
+  </main>
+
+  <footer>
+    <p>Copyright 2021</p>
+  </footer>
+</body>
+</html>
