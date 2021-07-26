@@ -103,4 +103,4 @@ function updateGrid(){
 
 createGrid(16);
 gridSize.addEventListener('mouseup', updateGrid);
-
+gridSize.addEventListener('touchmove', updateGrid);
